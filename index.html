@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <title>Template</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <div class="title">
+    <h1> 10%漲/跌停板、黃金分割率 計算機 </h1>
+  </div>
+  <div class="wrapper">
+    <input id="input" placeholder="前一日收盤價"></input>
+    <button id="calculate"> 計算 </button>
+    <br>
+    <div class="result">
+      <a class="up" id="LimitUp"> </a>
+      <br>
+      <a class="up" id="UpTwo"> </a>
+      <br>
+      <a class="up" id="UpOne"> </a>
+      <br>
+      <a id="Middle"> </a>
+      <br>
+      <a class="down" id="DownOne"> </a>
+      <br>
+      <a class="down" id="DownTwo"> </a>
+      <br>
+      <a class="down" id="LimitDown"> </a>
+    </div>
+  </div>
+</body>
+
+<script src="declare.js"></script>
+<script src="main.js"></script>
+
+</html>
