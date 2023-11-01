@@ -13,3 +13,4 @@ document.getElementById("input").addEventListener("keyup", function(e) {
     document.getElementById("calculate").click();
   }
 });
+document.getElementById("input").onclick = function() {clear()};

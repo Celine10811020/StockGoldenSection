@@ -211,3 +211,8 @@ function goldenSection()
     document.getElementById("DownOne").innerHTML = downOne;
   }
 }
+
+function clear()
+{
+   document.getElementById('input').value = "";
+}
